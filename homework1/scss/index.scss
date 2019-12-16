@@ -1,5 +1,4 @@
 @import "vars";
-@import "mainSection";
 @import "about";
 @import "header";
 @import "projects";
@@ -12,7 +11,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Sulphur Point", sans-serif;
+  font-family: $mainFont;
 }
 
 img {
@@ -43,7 +42,7 @@ a {
   font-size: $title-mobile;
   width: 90%;
   margin: 0 auto 30px;
-  font-family: "Dancing Script", cursive;
+  font-family: $cursiveFont;
 }
 
 .background-container {

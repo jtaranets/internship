@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css?family=Sulphur+Point:400,700&display=swap"
       rel="stylesheet"
@@ -17,50 +18,50 @@
       src="https://kit.fontawesome.com/d31495db13.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Yuliia Taranets</title>
   </head>
   <body>
     <header class="header">
-      <div class="container header__container">
-        <h1 class="header__logo">
-          <a href="#" class="header__logo-link">YT</a>
-        </h1>
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="#" class="header__link">
-                <i class="fas fa-home mobile-icon"></i
-                ><span class="mobile-invisible">Home</span></a
-              >
-            </li>
-            <li class="header__item">
-              <a href="#about" class="header__link">
-                <i class="fas fa-book"></i
-                ><span class="mobile-invisible">About</span></a
-              >
-            </li>
-            <li class="header__item">
-              <a href="#projects" class="header__link">
-                <i class="far fa-clipboard mobile-icon"></i
-                ><span class="mobile-invisible">Projects</span></a
-              >
-            </li>
-            <li class="header__item">
-              <a href="#contact" class="header__link">
-                <i class="fas fa-pen-fancy mobile-icon"></i
-                ><span class="mobile-invisible">Contact me</span></a
-              >
-            </li>
-          </ul>
-        </nav>
+      <div class="container ">
+        <div class="header__container">
+          <h1 class="header__logo">
+            <a href="#" class="header__logo-link">YT</a>
+          </h1>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link">
+                  <i class="fas fa-home mobile-icon"></i
+                  ><span class="mobile-invisible">Home</span></a
+                >
+              </li>
+              <li class="header__item">
+                <a href="#about" class="header__link">
+                  <i class="fas fa-book mobile-icon"></i
+                  ><span class="mobile-invisible">About</span></a
+                >
+              </li>
+              <li class="header__item">
+                <a href="#projects" class="header__link">
+                  <i class="far fa-clipboard mobile-icon"></i
+                  ><span class="mobile-invisible">Projects</span></a
+                >
+              </li>
+              <li class="header__item">
+                <a href="#contact" class="header__link">
+                  <i class="fas fa-pen-fancy mobile-icon"></i
+                  ><span class="mobile-invisible">Contact me</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <h2 class="header__main-title">Welcome to this website!</h2>
+        <p class="header__main-description">Let's see what we've got</p>
       </div>
     </header>
-    <section class="main_section">
-      <div class="container">
-        <h2 class="main_section__title">Welcome to this website!</h2>
-        <p class="main_section__description">Let's see what we've got</p>
-      </div>
-    </section>
+
     <div class="background-container">
       <section id="about">
         <h2 class="title">Let me introduce myself</h2>
@@ -87,12 +88,11 @@
           </div>
           <div class="about__description-container">
             <p class="about__description">
-              My name is Yuliia, I am a bank worker in the past, a web developer
-              in the present. My path in this field only begins but I am totally
-              sure that I have made the right decision of changing the
-              occupation. I know that it takes a lot to ace and I am ready to
-              give to the task as much as needed do develop and become better
-              with each passing day.
+              My name is Yuliia, I’m a bank worker in the past, a web developer
+              at present. My dev journey only begins but I’m absolutely sure
+              that my decision to change the occupation was right. I know I have
+              to work hard to ace it. I’m ready to learn, gain new skills and
+              become better each day.
             </p>
             <p class="about__description">
               Check out some of my projects &#x2193;
@@ -155,25 +155,24 @@
         <div class="container">
           <h2 class="title">Contact me</h2>
           <form action="#" class="contact__form">
-            <label>
-              Name: <input type="text" required class="contact__input"
-            /></label>
+            <div class="contact__form-container">
+              <label>
+                Name: <input type="text" required class="contact__input"
+              /></label>
 
-            <label
-              >Phone number: <input type="tel" class="contact__input"
-            /></label>
+              <label
+                >Phone number: <input type="tel" class="contact__input"
+              /></label>
 
-            <label
-              >Email: <input required type="email" class="contact__input"
-            /></label>
+              <label
+                >Email: <input required type="email" class="contact__input"
+              /></label>
 
-            <div>
               <label
                 >Assessment:
-                <input type="range" min="1" max="10" />
+                <input id="assessment" type="range" min="1" max="10" />
               </label>
             </div>
-
             <textarea cols="30" rows="10" class="contact__textarea"></textarea>
             <button class="contact__button" type="submit">Send</button>
           </form>

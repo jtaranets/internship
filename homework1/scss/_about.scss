@@ -1,14 +1,10 @@
-// #about {
-//   min-height: 100vh;
-// }
-
 .about {
   &__title {
     text-align: center;
     padding-top: 30px;
     font-size: $title-mobile;
     width: 90%;
-    margin: 0 auto 30px;
+    margin: 0 auto 40px;
   }
   &__picture-container {
     position: relative;
@@ -26,8 +22,8 @@
       background-color: rgb(141, 131, 131);
       top: -10px;
       left: 0;
-      z-index: -9999;
-      transform: rotate(-15deg);
+      z-index: -1;
+      transform: rotate(-10deg);
     }
   }
   &__picture {
@@ -59,8 +55,6 @@
     }
     &__picture-container {
       max-width: 30%;
-    }
-    &__link {
     }
 
     &__description {
